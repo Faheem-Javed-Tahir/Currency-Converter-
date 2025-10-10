@@ -15,7 +15,7 @@ body{
     background-color: #fff;
     padding: 2rem;
     height: 55vh;
-    width: 45vh;
+    width: 48vh;
     border-radius: 2rem;
 }
 
@@ -88,4 +88,19 @@ button{
     cursor: pointer;
 }
 
+@media (min-width:480px) and (max-width:768px){
+    
+    .container{
+        height: 75vh;
+    }
+    .dropDown{
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+    }
+    .from,.to{
+        text-align: center;
+    }
 
+   
+}
